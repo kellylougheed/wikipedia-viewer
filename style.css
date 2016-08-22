@@ -1,0 +1,94 @@
+html { 
+  background-color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', arial;
+  color: #ff0066;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+div.header {
+  background: url("http://www.kellylougheed.com/images/backgrounds/booksbw.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  position: relative;
+  border-bottom: 1px solid #202020;
+}
+
+h1 {
+  background: linear-gradient(bottom, rgba(0,0,0,.9), rgba(0,0,0,0));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,.9), rgba(0,0,0,0));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,.9), rgba(0,0,0,0));
+  font-size: 4em;
+  font-family: 'Poiret One', cursive;;
+  font-weight: 100;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px 10px 10px 10px;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ff0066;
+}
+
+a:hover {
+  color: #ff6699;
+}
+
+input {
+  font-size: 1em;
+  letter-spacing: 2px;
+  padding: 5px;
+  border: 1px solid #ff0066;
+}
+
+input[type="text"] {
+  background-color: #000000;
+  color: #ff0066;
+}
+
+input[type="button"] {
+  background-color: #ff0066;
+  color: #000000;
+}
+
+/* Wikipedia Entry Styling */
+
+div#entry {
+  opacity: 0;
+  background-color: #000000;
+  color: #cccccc;
+  padding: 10px;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+}
+
+div#entry p {
+  text-align: left;
+  padding: 5px;
+}
+
+h2 {
+  margin: -10px;
+  padding: 10px;
+  font-weight: lighter;
+  letter-spacing: 4px;
+}
