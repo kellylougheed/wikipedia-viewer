@@ -4,6 +4,8 @@
 
 The Wikipedia Viewer allows users to browse Wikipedia results of a search.
 
+<img src="http://www.kellylougheed.com/images/projects/wikipediaviewer.png"/>
+
 <h2>Features:</h2>
 
 <ul>
