@@ -11,8 +11,6 @@ The Wikipedia Viewer allows users to browse Wikipedia results of a search.
 <ul>
 <li> Results searched for and shown using Wikipedia's API.</li><br/>
 
-<li> Users can have special instructor access to courses they are teaching. Only first ten results shown.</li><br/>
-
 <li> Search bar responds to the user hitting the enter key.</li><br/>
 
 <li> CSS transitions allow the results to fade in.</li><br/>
